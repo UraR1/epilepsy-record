@@ -1,0 +1,12 @@
+<HelloScreen>:
+    BoxLayout:
+        id: hello_box
+        orientation: 'vertical'
+        Button:
+            id: register_button
+            text: 'Sign Up'
+            on_press: root.manager.current = 'sign_up'
+        Button:
+            id: login_button
+            text: 'Sign In'
+            on_press: root.manager.current = 'sign_in'
